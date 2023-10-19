@@ -19,7 +19,7 @@ const OrderSchema = mongoose.Schema({
 
 const ScooterSchema = mongoose.Schema({
     id: Number,
-    name: String,
+    model: String,
     costPrice: Number,
     // Other event properties specific to your application
 }, { collection: 'Scooter' });
